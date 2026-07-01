@@ -27,6 +27,7 @@
             border-radius: 8px;
             font-size: 1.2rem;
             cursor: pointer;
+            border: none;
         }
 
         .btn:hover {
@@ -45,19 +46,19 @@
 
     <h1>English Diagnostic Menu</h1>
 
-    <button class="btn" onclick="https://exambase.github.io/english-test/">Link 1</button>
-    <button class="btn" onclick="https://exambase.github.io/english-test-1">Link 2</button>
+    <button class="btn" onclick="goToLink1()">Link 1</button>
+    <button class="btn" onclick="goToLink2()">Link 2</button>
     <button class="btn" onclick="goToTarget()">Target Setting</button>
 
     <p class="note">Note: Link 1 and Link 2 are identical.</p>
 
     <script>
         function goToLink1() {
-            window.location.href = "link1.html"; 
+            window.location.href = "https://exambase.github.io/english-test/";
         }
 
         function goToLink2() {
-            window.location.href = "link1.html"; // identical on purpose
+            window.location.href = "https://exambase.github.io/english-test-1";
         }
 
         function goToTarget() {
